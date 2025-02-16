@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 :root {
   --White: hsl(0, 0%, 100%);
   --Stone100: hsl(30, 54%, 90%);
@@ -8,8 +10,6 @@
   --Rose800: hsl(332, 51%, 32%);
   --Rose50: hsl(330, 100%, 98%);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 * {
   box-sizing: border-box;
@@ -52,10 +52,10 @@ header {
 header h1 {
   height: 40px;
   width: 656px;
-  font-family: 'young serif';
+  font-family: 'Young Serif';
   font-size: 40px;
   line-height: 100%;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--Stone900);
   margin-bottom: 24px;
 }
@@ -63,7 +63,7 @@ header h1 {
 header p {
   height: 48px;
   width: 656px;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-size: 14px;
   line-height: 150%;
   font-weight: 400;
@@ -85,7 +85,7 @@ header p {
   text-align: left;
   color: var(--Rose800);
   margin: 24px 24px 16px 24px;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-size: 20px;
   line-height: 100%;
   font-weight: 600;
@@ -107,7 +107,7 @@ header p {
   line-height: 150%;
   margin-left: 24px;
   color: var(--Stone600);
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-weight: 400;
   margin-bottom: 8px;
 }
@@ -129,8 +129,8 @@ header p {
   color: var(--Brown800);
   font-size: 28px;
   line-height: 100%;
-  font-family: 'young-serif';
-  font-weight: 600;
+  font-family: 'Young Serif';
+  font-weight: 400;
   margin-bottom: 24px;
 }
 
@@ -144,7 +144,7 @@ header p {
   height: 24px;
   font-size: 16px;
   line-height: 150%;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-weight: 400;
   color: var(--Stone600);
   text-align: left;
@@ -176,7 +176,7 @@ hr {
   color: var(--Brown800);
   text-align: left;
   margin-bottom: 24px;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-size: 28px;
   line-height: 100%;
 }
@@ -193,7 +193,7 @@ hr {
   padding-left: 16px;
   text-align: left;
   color: var(--Stone600);
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-size: 16px;
   line-height: 150%;
   font-weight: 400;
@@ -204,7 +204,7 @@ hr {
   color: var(--Brown800);
   font-size: 16px;
   line-height: 150%;
-  font-family: 'oufit';
+  font-family: 'Oufit';
   font-weight: 700;
 }
 
@@ -221,7 +221,7 @@ hr {
   font-size: 28px;
   text-align: left;
   line-height: 100%;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   margin-bottom: 24px;
 }
 
@@ -232,7 +232,7 @@ hr {
   color: var(--Stone600);
   font-size: 16px;
   line-height: 150%;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-weight: 400;
 }
 
@@ -264,7 +264,7 @@ hr {
   color: var(--Stone600);
   font-size: 16px;
   line-height: 150%;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-weight: 400;
   text-align: left;
 }
@@ -273,7 +273,7 @@ hr {
   color: var(--Brown800);
   font-size: 16px;
   line-height: 150%;
-  font-family: 'outfit';
+  font-family: 'Outfit';
   font-weight: 700;
 }
 
@@ -381,7 +381,6 @@ hr {
     font-size: 36px;
     line-height: 100%;
     color: var(--Stone900);
-    font-family: 'young-serif';
     font-weight: 700;
   }
 
@@ -391,7 +390,6 @@ hr {
     text-align: left;
     font-size: 16px;
     line-height: 150%;
-    font-family: 'outfit';
     font-weight: 400;
   }
 
@@ -422,7 +420,6 @@ hr {
     text-align: left;
     font-size: 16px;
     line-height: 150%;
-    font-family: 'outfit';
     font-weight: 400;
   }
 
@@ -436,7 +433,6 @@ hr {
     color: var(--Brown800);
     font-size: 28px;
     line-height: 100%;
-    font-family: 'young-serif';
     font-weight: 400;
   }
 
