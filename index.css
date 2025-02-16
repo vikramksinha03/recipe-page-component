@@ -1,0 +1,484 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--Stone100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 128px 0;
+  height: 1700px;
+  width: 736px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--White);
+  border-radius: 24px;
+}
+
+img {
+  height: 300px;
+  width: 656px;
+  border-radius: 12px;
+  margin: 40px;
+}
+
+header {
+  height: 112px;
+  width: 656px;
+}
+
+header h1 {
+  height: 40px;
+  width: 656px;
+  font-family: 'young serif';
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--Stone900);
+  margin-bottom: 24px;
+}
+
+header p {
+  height: 48px;
+  width: 656px;
+  font-family: 'outfit';
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--Stone600);
+  text-align: left;
+}
+
+.preparation-time {
+  height: 172px;
+  width: 656px;
+  background-color: var(--Rose50);
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.preparation-header {
+  width: 608px;
+  height: 20px;
+  text-align: left;
+  color: var(--Rose800);
+  margin: 24px 24px 16px 24px;
+  font-family: 'outfit';
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 600;
+}
+
+.preparation--list {
+  width: 608px;
+  height: 88px;
+  margin: 0 24px 24px 24px;
+}
+
+.preparation--list li::marker {
+  color: var(--Rose800);
+  font-size: 16px;
+}
+
+.preparation--item {
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 24px;
+  color: var(--Stone600);
+  font-family: 'outfit';
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.text--bold {
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+.ingredients {
+  width: 656px;
+  height: 204px;
+  margin-bottom: 32px;
+}
+
+.ingredients--header {
+  width: 656px;
+  height: 28px;
+  color: var(--Brown800);
+  font-size: 28px;
+  line-height: 100%;
+  font-family: 'young-serif';
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.ingredients--list {
+  width: 656px;
+  height: 152px;
+}
+
+.ingredients--item {
+  width: 656px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'outfit';
+  font-weight: 400;
+  color: var(--Stone600);
+  text-align: left;
+  margin-left: 16px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.ingredients--item::marker {
+  font-size: 16px;
+  color: var(--Brown800);
+  margin-right: 16px;
+}
+
+hr {
+  width: 656px;
+  color: var(--Stone150);
+}
+
+.cooking-instruction {
+  width: 656px;
+  height: 332px;
+  margin: 32px 0;
+}
+
+.cooking--header {
+  width: 656px;
+  height: 28px;
+  color: var(--Brown800);
+  text-align: left;
+  margin-bottom: 24px;
+  font-family: 'outfit';
+  font-size: 28px;
+  line-height: 100%;
+}
+
+.instruction--list {
+  width: 656px;
+  height: 280px;
+}
+
+.instruction--item {
+  width: 656px;
+  min-height: 24px;
+  margin-left: 16px;
+  padding-left: 16px;
+  text-align: left;
+  color: var(--Stone600);
+  font-family: 'outfit';
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.instruction--item::marker {
+  color: var(--Brown800);
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'oufit';
+  font-weight: 700;
+}
+
+.nutrition {
+  width: 656px;
+  height: 268px;
+  margin-top: 32px;
+}
+
+.nutrition--header {
+  width: 656px;
+  height: 28px;
+  color: var(--Brown800);
+  font-size: 28px;
+  text-align: left;
+  line-height: 100%;
+  font-family: 'outfit';
+  margin-bottom: 24px;
+}
+
+.nutrition--title {
+  width: 656px;
+  height: 24px;
+  margin-bottom: 24px;
+  color: var(--Stone600);
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'outfit';
+  font-weight: 400;
+}
+
+.nutrition--table {
+  width: 656px;
+  height: 168px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+}
+
+.nutrition--table tr {
+  width: 656px;
+  height: 36px;
+  margin-bottom: 12px;
+}
+
+.nutrition--table td {
+  width: 288px;
+  height: 36px;
+  padding-left: 32px;
+  border-bottom: 1px solid var(--Stone150);
+}
+
+.nutrition--table tr:last-child td {
+  border-bottom: none;
+}
+
+.th {
+  color: var(--Stone600);
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'outfit';
+  font-weight: 400;
+  text-align: left;
+}
+
+.td {
+  color: var(--Brown800);
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'outfit';
+  font-weight: 700;
+}
+
+/* tablet view */
+@media (max-width: 768px) {
+  body {
+    margin: 5% 5%;
+  }
+
+  main {
+    height: 1844px;
+    width: 616px;
+    margin: 128px 76px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img,
+  header,
+  .preparation-time,
+  .ingredients,
+  .cooking-instruction,
+  .nutrition,
+  .nutrition--table,
+  .nutrition--title,
+  .ingredients--list,
+  .instruction--list,
+  .instruction--item,
+  hr {
+    width: 536px;
+  }
+
+  .preparation-time {
+    height: 172px;
+  }
+
+  .ingredients {
+    height: 204px;
+  }
+
+  .cooking-instruction {
+    height: 428px;
+  }
+
+  .nutrition {
+    height: 292px;
+  }
+}
+
+/* mobile view */
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+    height: 1872px;
+    margin: 0;
+  }
+  main {
+    width: 375px;
+    height: 2000px;
+    margin: 0;
+  }
+
+  img {
+    width: 375px;
+    height: 171px;
+    margin: 0;
+  }
+
+  header,
+  .title,
+  .description,
+  .preparation-time,
+  .preparation--container,
+  .ingredients,
+  .ingredients--header,
+  .ingredients--list,
+  .cooking-instruction,
+  .cooking--header,
+  .instruction--list,
+  .instruction--item,
+  .ingredients--item,
+  .nutrition,
+  .nutrition--header,
+  .nutrition--title,
+  .nutrition--table {
+    width: 311px;
+  }
+
+  .preparation-header,
+  .preparation--list {
+    width: 263px;
+  }
+
+  img {
+    height: 171px;
+  }
+
+  header {
+    height: 216px;
+    margin: 40px 32px 0 32px;
+  }
+
+  .title {
+    height: 72px;
+    font-size: 36px;
+    line-height: 100%;
+    color: var(--Stone900);
+    font-family: 'young-serif';
+    font-weight: 700;
+  }
+
+  .description {
+    height: 120px;
+    color: var(--Stone600);
+    text-align: left;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'outfit';
+    font-weight: 400;
+  }
+
+  .preparation-container {
+    height: 196px;
+  }
+
+  .preparation--list,
+  .preparation-header {
+    width: 263px;
+  }
+
+  .preparation-header {
+    height: 20px;
+    margin: 24px 24px 16px 24px;
+  }
+
+  .preparation--list {
+    height: 112px;
+    margin: 0 24px 24px 24px;
+  }
+
+  .preparation--item {
+    margin-bottom: 8px;
+    width: 263px;
+    max-height: 48px;
+    color: var(--Stone600);
+    text-align: left;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'outfit';
+    font-weight: 400;
+  }
+
+  .ingredients {
+    height: 228px;
+    margin: 0 32px 0 32px;
+  }
+
+  .ingredients--header {
+    height: 28px;
+    color: var(--Brown800);
+    font-size: 28px;
+    line-height: 100%;
+    font-family: 'young-serif';
+    font-weight: 400;
+  }
+
+  .ingredients--list {
+    height: 176px;
+  }
+
+  .ingredients--item {
+    max-height: 48px;
+    width: 271px;
+  }
+
+  .cooking-instruction {
+    margin: 32px;
+    height: 668px;
+    margin-bottom: 32px;
+  }
+
+  .instruction--list {
+    height: 616px;
+  }
+
+  .instruction--item {
+    max-height: 120px;
+  }
+
+  .nutrition {
+    margin: 32px 32px 40px 32px;
+  }
+
+  .nutrition--title {
+    width: 313px;
+    height: 48px;
+    text-align: left;
+  }
+
+  .nutrition--table {
+    height: 168px;
+    margin-top: 24px;
+  }
+
+  hr {
+    width: 311px;
+  }
+}
