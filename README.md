@@ -16,7 +16,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/recipe-page-component-7kp57cDilX
 - Live Site URL: https://vikramksinha03.github.io/recipe-page-component/
 
 ## My process
@@ -35,4 +35,4 @@ learn more on this with other challenges.
 ## Author
 
 - Website - https://vikramksinha03.github.io/recipe-page-component/
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/solutions/recipe-page-component-7kp57cDilX
